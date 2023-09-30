@@ -453,7 +453,7 @@ h5{
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
-    justify-content: right;
+    justify-content: space-between;
     gap: 10px;
 }
 .start-product__box{
@@ -466,7 +466,9 @@ h5{
     margin: 15px 0;
     height: 120px;
 }
-
+.start-product__box-main{
+    font-family: "TT Moscow Economy - Md";
+}
 .start-product__box .numb{
     font-size: 25px;
     margin-top: 10px;
@@ -499,7 +501,7 @@ h5{
 .variance__link{
     margin: 0;
     line-height: 25px;
-    font-family: 'TT Moscow Economy - Bd';
+    font-family: 'TT Moscow Economy - DemiBold';
 }
 .red-border{
     display: none;
@@ -652,7 +654,7 @@ h5{
     display: none;
 }
 .claster-list .p5{
-    font-family: "TT Moscow Economy - Bd";
+    font-family: "TT Moscow Economy - DemiBold";
 }
 .claster img{
     padding-right: 20px;
@@ -786,8 +788,12 @@ h5{
 .my-active-link{
     color: var(--red) !important;
     border-color: var(--red) !important;
+    font-family: "TT Moscow Economy - Bd";
 }
 
 .application-modal .p5{
     font-size: 13px;
+}
+.right-flex{
+    margin-left: auto;
 }

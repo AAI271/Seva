@@ -75,7 +75,7 @@ varianceType.forEach(function (select,index){
 
 const closeIcons = document.querySelectorAll('.close-icon')
 const modals = document.querySelectorAll('.modal')
-
+const applicationModalClose = document.querySelector('.application-modal__close')
 closeIcons.forEach((el)=>{
     el.addEventListener('click',()=>{
         modals.forEach((modal)=>{
@@ -83,9 +83,15 @@ closeIcons.forEach((el)=>{
         })
     })
 })
+applicationModalClose.addEventListener('click',()=>{
+    modals.forEach((modal)=>{
+        modal.classList.remove('show')
+    })
+})
 
 const clasterModal = document.querySelector('.claster-modal')
 const applicationModal = document.querySelector('.application-modal')
+
 
 
 const openClasterModal = ()=>{

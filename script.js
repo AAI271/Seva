@@ -83,7 +83,8 @@ closeIcons.forEach((el)=>{
         })
     })
 })
-applicationModalClose.addEventListener('click',()=>{
+applicationModalClose.addEventListener('click',(e)=>{
+    e.preventDefault()
     modals.forEach((modal)=>{
         modal.classList.remove('show')
     })

@@ -31,11 +31,9 @@ variance__link.forEach(function (select,index){
         if(this.closest('.variance-type').classList.contains('active-border')) {
                 event.stopPropagation()
             variance__link.forEach((link)=>{
-                link.style.color="#393649"
-                link.style.borderColor="#393649"
+                link.classList.remove('my-active-link')
             })
-            select.style.color='#D00E46'
-            select.style.borderColor='#D00E46'
+            select.classList.add('my-active-link')
                 varianceItems.forEach(function (element, itemIndex) {
                     if (!(index === itemIndex)) {
                         console.log(index, itemIndex)
@@ -60,18 +58,15 @@ varianceType.forEach(function (select,index){
         varianceItems.forEach(()=>{
             varianceItems.forEach((el,ind)=>{
                 el.classList.remove('variance-type__item_active')
-                variance__link[ind].style.color='#393649'
-                variance__link[ind].style.borderColor='#393649'
+                variance__link[ind].classList.remove('my-active-link')
             })
             if(index===0){
                 varianceItems[0].classList.add('variance-type__item_active')
-                variance__link[0].style.color='#D00E46'
-                variance__link[0].style.borderColor='#D00E46'
+                variance__link[0].classList.add('my-active-link')
             }
             else{
                 varianceItems[3].classList.add('variance-type__item_active')
-                variance__link[3].style.color='#D00E46'
-                variance__link[3].style.borderColor='#D00E46'
+                variance__link[3].classList.add('my-active-link')
             }
         })
         select.classList.add('active-border')
@@ -90,8 +85,12 @@ closeIcons.forEach((el)=>{
 })
 
 const clasterModal = document.querySelector('.claster-modal')
+const applicationModal = document.querySelector('.application-modal')
 
 
 const openClasterModal = ()=>{
     clasterModal.classList.add('show')
+}
+const openApplicationModal = () =>{
+    applicationModal.classList.add('show')
 }

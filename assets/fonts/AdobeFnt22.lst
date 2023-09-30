@@ -1,0 +1,97 @@
+%!Adobe-FontList 1.22
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TTMoscowEconomy-Bd
+FamilyName:TT Moscow Economy
+StyleName:Bold
+FullName:TT Moscow Economy Bold
+MenuName:TT Moscow Economy
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\!\мой_старт\2023\Мой_Старт\ТП_сайт\isx\Сборка_страниц_taka\01_4_Как стать резидентом\Document fonts\TT Moscow Economy Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:235324
+FileModTime:1662352974
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TT Moscow Economy Bold
+NameArray:0,Win,1,TT Moscow Economy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TTMoscowEconomy-Lt
+FamilyName:TT Moscow Economy
+StyleName:Light
+FullName:TT Moscow Economy Light
+MenuName:TT Moscow Economy Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\!\мой_старт\2023\Мой_Старт\ТП_сайт\isx\Сборка_страниц_taka\01_4_Как стать резидентом\Document fonts\TT Moscow Economy Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:236008
+FileModTime:1662352974
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TT Moscow Economy Light
+NameArray:0,Win,1,TT Moscow Economy Light
+NameArray:0,Win,16,TT Moscow Economy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TTMoscowEconomy-Md
+FamilyName:TT Moscow Economy
+StyleName:Medium
+FullName:TT Moscow Economy Medium
+MenuName:TT Moscow Economy Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\!\мой_старт\2023\Мой_Старт\ТП_сайт\isx\Сборка_страниц_taka\01_4_Как стать резидентом\Document fonts\TT Moscow Economy Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:235032
+FileModTime:1662352974
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TT Moscow Economy Medium
+NameArray:0,Win,1,TT Moscow Economy Medium
+NameArray:0,Win,16,TT Moscow Economy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TTMoscowEconomy-Rg
+FamilyName:TT Moscow Economy
+StyleName:Regular
+FullName:TT Moscow Economy Regular
+MenuName:TT Moscow Economy
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\!\мой_старт\2023\Мой_Старт\ТП_сайт\isx\Сборка_страниц_taka\01_4_Как стать резидентом\Document fonts\TT Moscow Economy Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:236028
+FileModTime:1662352974
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TT Moscow Economy Regular
+NameArray:0,Win,1,TT Moscow Economy
+%EndFont
+

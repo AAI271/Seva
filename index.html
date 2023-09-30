@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="welcome" class="welcome">
+    <div class="container">
+        <div class="welcome__title">
+            <img src="assets/welcomeLine.svg" alt="">
+            <div>
+                <h1 class="my-h1">
+                <span class="red">
+                    Как стать<br/> резидентом<br/>
+                </span>
+                    ОЭЗ<br/>
+                    «Технополис Москва»
+                </h1>
+                <p class="gray small-text">
+                    Узнать о преференциях, которые получают резиденты ОЭЗ<br/>
+                    «Технополис Москва» вы можете <a href="">здесь</a>
+                </p>
+                <p class="gray small-text">
+                    Ознакомиться с возможными вариантами освоения<br/>
+                    промышленных территорий ОЭЗ <a href="">«гринфилд»</a> и <a href="">«браунфилд»</a>
+                </p>
+            </div>
+        </div>
+        <div class="welcome__img desktop">
+            <img src="assets/welcome_img.jpg" alt="">
+        </div>
+        <div class="welcome__steps">
+            <div>
+                <h3 class="black">
+                <span class="red">
+                    ВСЕГО
+                    <span class="numb">
+                        <strong>3</strong>
+                    </span>
+                    ЭТАПА<br/>
+                </span>
+                    ЧТОБЫ СТАТЬ РЕЗИДЕНТОМ
+                </h3>
+            </div>
+            <div class="welcome__steps-list">
+                <div>
+                    <span class="red numb">
+                        <strong>1</strong>
+                    </span>
+                    <p class="black">
+                        Проверьте – соответствует<br/>
+                        ли компания требованиям<br/>
+                        и подберите площадку
+                    </p>
+                </div>
+                <div class="line desktop"></div>
+                <div>
+                    <span class="red numb">
+                        <strong>2</strong>
+                    </span>
+                    <p class="black">
+                        Подготовьте пакет<br/>
+                        документов и подайте<br/>
+                        заявку в ДИиПП
+                    </p>
+                </div>
+                <div class="line desktop"></div>
+                <div>
+                    <span class="red numb">
+                        <strong>3</strong>
+                    </span>
+                    <p class="black">
+                        Заключите договор<br/>
+                        аренды, постройте<br/>
+                        и запустите производство
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="welcome__btns">
+            <div class="btn black-btn">
+                Требования к резиденту
+            </div>
+            <div class="btn red-btn">
+                Стать резидентом
+            </div>
+        </div>
+    </div>
+</section>
+<section id="questions" class="questions">
+    <div class="container">
+        <div class="content relative">
+            <div class="content__info">
+                <img class="desktop" src="assets/questions.jpg" alt="">
+                <button onclick="openClasterModal()" class="btn black-btn">
+                    Список кластеров
+                </button>
+            </div>
+            <div class="content__title align-right">
+                <h3>
+                    КАКАЯ КОМПАНИЯ<br/>
+                    МОЖЕТ ПОЛУЧИТЬ<br/>
+                    <span class="red">
+                    СТАТУС РЕЗИДЕНТА
+                </span>
+                </h3>
+                <div class="header-line">
+                    <div class="header-line__box header-line__right"></div>
+                </div>
+                <p>
+                    <span class="gray">
+                       Особая экономическая зона “Технополис Москва”<br/>
+                        относится к технико-внедренческому типу.<br/>
+                        Это значит, что
+                    </span>
+                    ее резидентом может стать компания.
+                </p>
+                <h4 class="red demibold">
+                    КОТОРАЯ ПРОИЗВОДИТ<br/>
+                    И РЕАЛИЗУЕТ НАУЧНО-ТЕХНИЧЕСКУЮ<br/>
+                    ПРОДУКЦИЮ
+                </h4>
+            </div>
+        </div>
+        <hr/>
+        <div class="content">
+            <div class="content__title">
+                <h3>
+                    ЧТО ДАЕТ СТАТУС<br/>
+                    <span class="red">
+                        РЕЗИДЕНТА ОЭЗ
+                    </span>
+                </h3>
+                <h4 class="black demibold">
+                    ПРЕИМУЩЕСТВА
+                </h4>
+                <div class="header-line">
+                    <div class="header-line__box header-line__left"></div>
+                </div>
+                <button class="btn black-btn" style="margin-top: 70px">
+                    Подробнее
+                </button>
+            </div>
+            <div class="content__info">
+                <ul class="content__info-list">
+                    <li>
+                        <p class="p4 gray">
+                            Получив статус резидента ОЭЗ «Технополис “Москва”»,<br/>
+                            коммерческие организации и индивидуальные<br/>
+                            предприниматели <span class="red">на 10 лет освобождаются от уплаты налога</span><br/>
+                            на имущество, землю и на транспорт.<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            До 2028 года для предприятий <span class="black">снижается налоговая ставка</span> на<br/>
+                            прибыль с 20 % до 2%. Следующие 5 лет нужно будет платить<br/>
+                            всего 7 %, а с 2033 года — 14,5 %.<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            После того, как компания-резидент закончит строить<br/>
+                            собственный производственный объект, она может <span class="black"> выкупить<br/>
+                            этот участок за один процент от кадастровой стоимости.</span><br/>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Резиденты <span class="black">освобождаются от уплаты</span> таможенных пошлин и<br/>
+                            НДС при ввозе товаров и оборудования.<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            На территории ОЭЗ можно <span class="black">арендовать готовое помещение<br/>
+                            или построить собственный завод с нуля.<br/></span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Независимо от того, какую площадку выберет новый резидент,<br/>
+                            его <span class="black">обеспечат всеми необходимыми коммуникациями для<br/>
+                            запуска производства.<br/></span>
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="requirements" class="requirements">
+    <div class="container">
+        <div class="content">
+            <div class="content__info">
+                <ol class="content__info-list">
+                    <li>
+                        <p class="p4 gray">
+                            Регистрация (за исключением унитарного предприятия)<br/>
+                            в Москве в границах муниципального образования,<br/>
+                            в границах которого расположена особая экономическая<br/>
+                            зона
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Отсутствие филиалов и представительств, а также<br/>
+                            обособленных подразделений за пределами ОЭЗ<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Отсутствие права передавать свои права и обязанности<br/>
+                            по соглашению об осуществлении деятельности<br/>
+                            другому лицу
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Заключение соглашения об осуществлении<br/>
+                            промышленно-производственной или технико-<br/>
+                            внедренческой деятельности
+                        </p>
+                    </li>
+                    <li>
+                        <p class="p4 gray">
+                            Ведение деятельности на территории ОЭЗ<br/>
+                            в соответствии с соглашением
+                        </p>
+                    </li>
+
+                </ol>
+            </div>
+            <div class="content__title align-right">
+                <h3>
+                <span class="red">
+                        5 ТРЕБОВАНИЙ</span>,<br/>
+                    КОТОРЫМ ДОЛЖЕН<br/>
+                    СООТВЕТСТВОВАТЬ<br/>
+                    РЕЗИДЕНТ
+                </h3>
+                <div class="header-line">
+                    <div class="header-line__box header-line__right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="requirements__box">
+            <h3>
+                ЗАПОЛНИТЕ АНКЕТУ<br/>
+                <span class="gray">
+                    будущего резидента
+                </span><br/>
+                ПРЯМО СЕЙЧАС
+            </h3>
+            <button onclick="openClasterModal()" class="btn black-btn">
+                Список кластеров
+            </button>
+            <img src="assets/requirements.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+<section id="variance" class="variance">
+    <div class="container">
+        <div class="variance__title">
+            <h3 class="align-center">
+            <span class="red">
+                ВАРИАНТЫ
+            </span><br/>
+                ОСВОЕНИЯ ПРОМЫШЛЕННЫХ ТЕРРИТОРИЙ ОЭЗ
+            </h3>
+            <div class="header-line">
+                <div class="header-line__box header-line__center"></div>
+            </div>
+        </div>
+        <div class="variance__list">
+            <div class="variance-type active-border">
+                <div class="left-border">
+                    <img class="red-border" width="50" src="assets/lin_09_red_L_active.svg" alt="">
+                    <img class="gray-border" width="50" src="assets/lin_09_L_inactive.svg" alt="">
+                </div>
+                <div class="variance-type__container">
+                    <div class="variance-type__title">
+                        <img width="100" src="assets/icon_greenfield%20.svg" alt="">
+                        <h3 class="red">Гринфилд</h3>
+                    </div>
+                    <p class="variance-type__text">
+                        СТРОИТЕЛЬСТВО ОТДЕЛЬНОСТОЯЩЕГО ПРОМОБЪЕКТА
+                    </p>
+                    <a class="variance__link clickable red" style="color: #D00E46;border-color: #D00E46" href="">Экономические требования</a><br/>
+                    <a class="variance__link clickable red" href="">Запуск производства</a><br/>
+                    <a class="variance__link clickable red" href="">Необходимые документы</a>
+                </div>
+                <div class="right-border">
+                    <img class="gray-border" width="50" src="assets/lin_09_R_inactive.svg" alt="">
+                    <img class="red-border" width="50" src="assets/lin_09_red_R_active.svg" alt="">
+                </div>
+            </div>
+            <div class="variance-type">
+                <div class="left-border">
+                    <img class="red-border" width="50" src="assets/lin_09_red_L_active.svg" alt="">
+                    <img class="gray-border" width="50" src="assets/lin_09_L_inactive.svg" alt="">
+                </div>
+                <div class="variance-type__container">
+                    <div class="variance-type__title">
+                        <img width="100" src="assets/icon_greenfield%20.svg" alt="">
+                        <h3 class="red">Браунфилд</h3>
+                    </div>
+                    <p class="variance-type__text">
+                        АРЕНДА СУЩЕСТВУЮЩЕЙ ПЛОЩАДКИ
+                    </p>
+                    <a class="variance__link red" href="">Экономические требования</a><br/>
+                    <a class="variance__link red" href="">Запуск производства</a><br/>
+                    <a class="variance__link red" href="">Необходимые документы</a>
+                </div>
+                <div class="right-border">
+                    <img class="gray-border" width="50" src="assets/lin_09_R_inactive.svg" alt="">
+                    <img class="red-border" width="50" src="assets/lin_09_red_R_active.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="variance-type__container">
+            <div class="variance-type__item variance-type__item_active economic-requirement">
+                <div class="economic-requirement__title">
+                    <h3>Экономические требования <span class="red">для «гринфилд»</span></h3>
+                </div>
+                <div class="economic-requirement__list">
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            ИНВЕСТИЦИИ<br/>
+                            на 1 Га за 5 лет
+                        </h5>
+                        <p>
+                            <span class="red numb">360 916 971</span><br/>
+                            руб./Га
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Суммарный объем инвестиций, связанных с
+                            приобретением, созданием, модернизацией,
+                            реконструкцией и подготовкой к использованию
+                            внеоборотных активов заявителя на территории
+                            ОЭЗ, планируемый к осуществлению в течение не
+                            более 5 календарных лет с даты подписания соглашения (дополнительного соглашения) на один
+                            гектар земельных участков (далее - ЗУ), в отношении которых планируется заключение договора
+                            аренды, в границах территории ОЭЗ
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            СРЕДНЯЯ<br/>
+                            ЗАРАБОТНАЯ ПЛАТА
+                        </h5>
+                        <p>
+                            <span class="red numb">82 185</span><br/>
+                            руб.
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Планируемый среднемесячный размер заработной платы работников, занятых на ЗУ, в отношении которых планируется заключение договора
+                            аренды, в границах территории ОЭЗ, на второй
+                            календарный год с планируемой даты ввода в
+                            эксплуатацию создаваемых объектов капитального строительства составляет не менее размера
+                            среднемесячного дохода от трудовой деятельности по городу Москве по данным Росстата, определяемого за год, в котором планируется ввод в
+                            эксплуатацию создаваемых объектов капитального
+                            строительства
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            ВЫРУЧКА<br/>
+                            на 1 Га за год
+                        </h5>
+                        <p>
+                            <span class="red numb">451 444 000</span><br/>
+                            руб./Га
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Планируемый среднемесячный размер заработной платы работников, занятых на ЗУ, в отношении которых планируется заключение договора
+                            аренды, в границах территории ОЭЗ, на второй
+                            календарный год с планируемой даты ввода в
+                            эксплуатацию создаваемых объектов капитального строительства составляет не менее размера
+                            среднемесячного дохода от трудовой деятельности по городу Москве по данным Росстата, определяемого за год, в котором планируется ввод в
+                            эксплуатацию создаваемых объектов капитального
+                            строительства
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="variance-type__item start-product">
+                <div class="start-product__step start-product__step-title">
+                    <div class="start-product__box gray-bg">
+                        <p class="p1 red numb">
+                            1
+                        </p>
+                        <p class="p2">
+                            ВЫБОР ЗЕМЕЛЬНОГО
+                            УЧАСТКА<br/>
+                            <span class="red">
+                            ПОД ЗАСТРОЙКУ
+                        </span>
+                        </p>
+                    </div>
+                    <div class="start-product__title">
+                        <h3>
+                            Как запустить производство<br/>
+                            <span class="red">
+                            в формате «гринфилд»
+                        </span>
+                        </h3>
+                        <p class="p4 clickable "><a class="red" href="">Скачать памятку потенциального резидента</a></p>
+                    </div>
+                </div>
+                <div class="start-product__step">
+                    <div class="start-product__box red-bg">
+                        <p class="p1 numb">
+                            2
+                        </p>
+                        <p class="p2">
+                            ПОЛУЧЕНИЕ<br/>
+                            СТАТУСА<br/>
+                            РЕЗИДЕНТА:
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.1.
+                        </p>
+                        <p class="p4">
+                            Подача в ДИиПП
+                            Москвы заявки, паспорта
+                            инвестиционного проекта,
+                            финансовый модели и
+                            учредительных документов*
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.2.
+                        </p>
+                        <p class="p4">
+                            Подписание трехстороннего
+                            соглашения с ДИиПП и АО
+                            "ОЭЗ "Технополис Москва"
+                            об осуществлении
+                            деятельности
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.3.
+                        </p>
+                        <p class="p4">
+                            Внесение в реестр
+                            резидентов ОЭЗ.
+                            <span class="red">
+                                Получение
+                                свидетельства резидента
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="start-product__step">
+                    <div class="start-product__box brown-bg">
+                        <p class="p1 numb">
+                            3
+                        </p>
+                        <p class="p2">
+                            ЗАПУСК<br/>
+                            ПРОИЗВОДСТВА**:
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.1.
+                        </p>
+                        <p class="p4">
+                            Заключение договора
+                            аренды земельного
+                            участка
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.2.
+                        </p>
+                        <p class="p4">
+                            Получение ТУ
+                            на подключение к сетям АО
+                            "ОЭЗ "Технополис Москва
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.3.
+                        </p>
+                        <p class="p4">
+                            Проектирование
+                            объекта капитального
+                            строительства
+                            и получение заключения
+                            экспертизы
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.4.
+                        </p>
+                        <p class="p4">
+                            Строительно-монтажные работы
+                            объекта капитального
+                            строительства
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.5.
+                        </p>
+                        <p class="p4">
+                            Ввод в эксплуатацию
+                            объекта капитального
+                            строительства
+
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.6.
+                        </p>
+                        <p class="p4">
+                            <span class="red">
+                            Запуск<br/>
+                            производства
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p1 red">
+                            3.7
+                        </p>
+                        <p class="p4">
+                            Выкуп земельного
+                            участка за 1% от
+                            кадастровой стоимости
+                            (необязательно)
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="variance-type__item"></div>
+            <div class="variance-type__item economic-requirement">
+                <div class="economic-requirement__title">
+                    <h3>Экономические требования <span class="red">для «браунфилд»</span></h3>
+                </div>
+                <div class="economic-requirement__list">
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            ИНВЕСТИЦИИ<br/>
+                            на 1 м<sup>2</sup>
+                            за 5 лет
+                        </h5>
+                        <p>
+                            <span class="red numb">64 322</span><br/>
+                            руб./м<sup>2</sup>
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Суммарный объем инвестиций, связанных с
+                            приобретением, созданием, модернизацией,
+                            реконструкцией и подготовкой к использованию
+                            внеоборотных активов заявителя на планируемых
+                            к аренде объектах капитального строительства,
+                            планируемый к осуществлению в течение не более 5 календарных лет с даты подписания соглашения, приходящийся на один квадратный метр
+                            общей площади планируемых к аренде объектов
+                            капитального строительства
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            СРЕДНЯЯ<br/>
+                            ЗАРАБОТНАЯ ПЛАТА
+                        </h5>
+                        <p>
+                            <span class="red numb">82 185</span><br/>
+                            руб.
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Планируемый среднемесячный размер заработной платы работников, занятых на планируемых
+                            к аренде объектах капитального строительства,
+                            составляет не менее размера среднемесячного
+                            дохода от трудовой деятельности по городу Москве по данным Росстата, определяемого за год, в
+                            котором планируется окончание осуществления
+                            инвестиций
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="open-card">
+                        <h5 class="open-card__title">
+                            ВЫРУЧКА<br/>
+                            на 1 м<sup>2</sup> за год
+                        </h5>
+                        <p>
+                            <span class="red numb">298 977</span><br/>
+                            руб./м<sup>2</sup>
+                        </p>
+                        <p class="red more-btn clickable">Подробнее</p>
+                        <p class="p4">
+                            Планируемый среднемесячный размер заработной платы работников, занятых на ЗУ, в отношении которых планируется заключение договора
+                            аренды, в границах территории ОЭЗ, на второй
+                            календарный год с планируемой даты ввода в
+                            эксплуатацию создаваемых объектов капитального строительства составляет не менее размера
+                            среднемесячного дохода от трудовой деятельности по городу Москве по данным Росстата, определяемого за год, в котором планируется ввод в
+                            эксплуатацию создаваемых объектов капитального
+                            строительства
+                        </p>
+                        <div class="open-card__icon">
+                            <svg role="presentation" class="t-cover__arrow-svg" style="fill:#929292;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                                <g>
+                                    <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="variance-type__item start-product">
+                <div class="start-product__step start-product__step-title">
+                    <div class="start-product__box gray-bg">
+                        <p class="p1 red numb">
+                            1
+                        </p>
+                        <p class="p2">
+                            ВЫБОР<br/>
+                            ПЛОЩАДКИ<br/>
+                            <span class="red">
+                                ДЛЯ АРЕНДЫ
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__title">
+                        <h3>
+                            Как запустить производство<br/>
+                            <span class="red">
+                            в формате «браунфилд»
+                        </span>
+                        </h3>
+                        <p class="p4 clickable "><a class="red" href="">Скачать памятку потенциального резидента</a></p>
+                    </div>
+                </div>
+                <div class="start-product__step">
+                    <div class="start-product__box red-bg">
+                        <p class="p1 numb">
+                            2
+                        </p>
+                        <p class="p2">
+                            ПОЛУЧЕНИЕ<br/>
+                            СТАТУСА<br/>
+                            РЕЗИДЕНТА:
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.1.
+                        </p>
+                        <p class="p4">
+                            Подача в ДИиПП
+                            Москвы заявки, паспорта
+                            инвестиционного проекта,
+                            финансовый модели и
+                            учредительных документов<sup class="red">*</sup>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.2.
+                        </p>
+                        <p class="p4">
+                            Экспертиза<br/>
+                            проекта в ДИиПП<br/>
+                            Москвы и АО "ОЭЗ<br/>
+                            "Технополис Москва"
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.3.
+                        </p>
+                        <p class="p4">
+                            Подписание трехстороннего<br/>
+                            соглашения с ДИиПП<br/>
+                            и АО "ОЭЗ "Технополис<br/>
+                            Москва" об осуществлении<br/>
+                            деятельности
+                        </p>
+                    </div>
+                    <div class="start-product__box white-red-bg">
+                        <p class="p4 red">
+                            2.4.
+                        </p>
+                        <p class="p4">
+                            Внесение в реестр
+                            резидентов ОЭЗ.<br/>
+                            <span class="red">
+                                Получение
+                                свидетельства резидента
+                            </span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="start-product__step">
+                    <div class="start-product__box brown-bg">
+                        <p class="p1 numb">
+                            3
+                        </p>
+                        <p class="p2">
+                            ЗАПУСК<br/>
+                            ПРОИЗВОДСТВА**:
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.1.
+                        </p>
+                        <p class="p4">
+                            Заключение<br/>
+                            договора<br/>
+                            аренды
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.2.
+                        </p>
+                        <p class="p4">
+                            Получение ТУ<br/>
+                            на подключение<br/>
+                            к сетям АО "ОЭЗ<br/>
+                            "Технополис Москва"
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.3.
+                        </p>
+                        <p class="p4">
+                            Проектирование<br/>
+                            объекта капитального<br/>
+                            строительства<br/>
+                            и получение<br/>
+                            заключения экспертизы
+                            </span>
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.4.
+                        </p>
+                        <p class="p4">
+                            Заключение договора<br/>
+                            на строительный контроль<br/>
+                            и получение разрешение<br/>
+                            на производство работ<br/>
+                            на объекте аренды
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.5.
+                        </p>
+                        <p class="p4">
+                            Строительно-<br/>
+                            монтажные работы<br/>
+                            на объекте аренды
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p1 red">
+                            3.6.
+                        </p>
+                        <p class="p4">
+                            Ввод в эксплуатацию<br/>
+                            объекта аренды
+                        </p>
+                    </div>
+                    <div class="start-product__box">
+                        <p class="p4 red">
+                            3.7.
+                        </p>
+                        <p class="p4 red">
+                            Запуск<br/>
+                            производства
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="variance-type__item"></div>
+        </div>
+    </div>
+</section>
+<section id="docs" class="docs">
+    <div class="container">
+        <div class="content">
+            <div class="content__title">
+                <h3>
+                    <span class="red">
+                        Какие документы<br/>
+                        требуются
+                    </span><br/>
+                    для заключения<br/>
+                    Соглашения
+                </h3>
+                <p>
+                    Перечень документов для заключения<br/>
+                    Соглашения об осуществлении<br/>
+                    технико-внедренческой<br/>
+                    или промышленно-производственной<br/>
+                    деятельности
+                </p>
+            </div>
+            <div class="content__info">
+                <ul class="content__info-list">
+                    <li>
+                        <p>
+                            ЗАЯВКА НА ЗАКЛЮЧЕНИЕ<br/>
+                            СОГЛАШЕНИЯ<br/>
+                            <span class="gray">
+                                об осуществлении деятельности,<br/>
+                                содержащая сведения:<br/>
+                            </span>
+                            <span class="red link">Подробнее</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            КОПИИ УЧРЕДИТЕЛЬНЫХ<br/>
+                            ДОКУМЕНТОВ
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            БИЗНЕС-ПЛАН
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            КОПИЯ СВИДЕТЕЛЬСТВА<br/>
+                            О ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ<br/>
+                            <span class="gray">
+                                юридического лица или индивидуального<br/>
+                                предпринимателя и копия свидетельства<br/>
+                                о постановке на учет в налоговом органе
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cards" class="cards">
+    <div class="container">
+        <div class="cards__item">
+            <img src="assets/fcards.jpg" alt="">
+            <p class="p4">ВАКАНСИИ</p>
+            <p class="p2 red">
+                РАБОТА<br/>
+                И СТАЖИРОВКА
+            </p>
+            <button class="btn red-btn">
+                Подробнее
+            </button>
+        </div>
+        <div class="cards__item">
+            <img src="assets/scards.jpg" alt="">
+            <button class="btn black-btn">
+                Подробнее
+            </button>
+        </div>
+        <div class="cards__item">
+            <img src="assets/tcard.jpg" alt="">
+            <p class="p4">МЕРОПРИЯТИЯ</p>
+            <p class="p2 red">
+                КАЛЕНДАРЬ<br/>
+                СОБЫТИЙ
+            </p>
+            <button class="btn red-btn">
+                Принять участние
+            </button>
+        </div>
+    </div>
+</section>
+
+<div class="modal claster-modal">
+    <div class="modal__container">
+        <h3>
+            КЛАСТЕРЫ
+        </h3>
+        <div class="header-line">
+            <div class="header-line__box header-line__center"></div>
+        </div>
+        <div class="claster-list">
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_01_микроэл.svg" alt="">
+                <p class="p5">
+                    Микроэлектроника,
+                    оптика и электронная аппаратура
+                </p>
+            </div>
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_02_технолог.svg" alt="">
+                <p class="p5">
+                    Энергоэффективные,
+                    современные технологии
+                </p>
+            </div>
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_03_медицин.svg" alt="">
+                <p class="p5">
+                    Медицинские технологии,
+                    оборудование и биофарма
+                </p>
+            </div>
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_04_информ.svg" alt="">
+                <p class="p5">
+                    Информационно-
+                    коммуникационные технологии
+                </p>
+            </div>
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_05_нанотех.svg" alt="">
+                <p class="p5">
+                    Современные материалы
+                    и нанотехнологии
+                </p>
+            </div>
+            <div class="claster">
+                <img width="50" src="assets/icon_kl_06_производства.svg" alt="">
+                <p class="p5">
+                    Высокотехнологичные
+                    производства
+                </p>
+            </div>
+        </div>
+        <div class="btn black-btn">
+            Стать резидентом
+        </div>
+        <div class="close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M18 6L6 18M6 6l12 12" stroke="#c2c0c6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<div class="modal application-modal">
+    <div class="modal__container">
+        <h3 class="red">
+            Заявка на заключение Соглашения
+        </h3>
+        <p class="p4">
+            об осуществлении деятельности, содержащая сведения:
+        </p>
+        <div class="header-line">
+            <div class="header-line__box header-line__center"></div>
+        </div>
+        <ul class="application-list">
+            <li class="application-step">
+                <p class="p5">
+                    О предполагаемой
+                    деятельности заявителя;
+                </p>
+            </li>
+            <li class="application-step">
+                <p class="p5">
+                    О государственном и (или)
+                    муниципальном имуществе,
+                    необходимом для осуществления
+                    предполагаемой деятельности;
+                </p>
+            </li>
+            <li class="application-step">
+                <p class="p5">
+                    О площади земельного участка,
+                    необходимого для осуществления
+                    предполагаемой деятельности заявителя;
+                </p>
+            </li>
+            <li class="application-step">
+                <p class="p5">
+                    О предполагаемом объеме инвестиций
+                    и предполагаемом объеме капитальных
+                    вложений в период деятельности
+                    заявителя в ОЭЗ, в том числе об объеме
+                    капитальных вложений в течение трех
+                    лет со дня заключения соглашения
+                </p>
+            </li>
+            <li class="application-step">
+                <p class="p5">
+                    О величине необходимой
+                    присоединяемой мощности
+                    энергопринимающих устройств
+                    заявителя, а также о видах и об объеме,
+                    о планируемой величине необходимой
+                    подключаемой нагрузки в отношении
+                    необходимых ресурсов (в том числе
+                    холодной и горячей воды, сетевого газа
+                    и тепловой энергии), используемых
+                    для предоставления услуг по тепло-,
+                    газо- и водоснабжению, иных ресурсов
+                    необходимых для осуществления
+                    деятельности
+                </p>
+            </li>
+        </ul>
+        <div class="btn black-btn">
+            Стать резидентом
+        </div>
+        <div class="close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M18 6L6 18M6 6l12 12" stroke="#c2c0c6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

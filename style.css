@@ -1,0 +1,773 @@
+html{
+    scroll-behavior: smooth;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+:root {
+    --red: #D00E46;
+    --textColor: #393649;
+    --rose: #f09eb5;
+    --brown: #740827;
+    --textGray: #929292;
+    --lightGray: #c2c0c6;
+    --grayBg: #ebebeb;
+    --lineHeight: 1.5rem;
+    --lightRose: #f7e5ea;
+}
+.link{
+    border-bottom: 1px solid var(--red);
+    padding-bottom: 0;
+    cursor:pointer;
+}
+@font-face {
+    font-family: "TT Moscow Economy - Rg";
+    font-weight: 400;
+    font-style: normal;
+    src: url("assets/fonts/TT_Moscow_Economy_Regular.ttf");
+}
+
+@font-face {
+    font-family: "TT Moscow Economy - Md";
+    font-weight: 400;
+    font-style: normal;
+    src: url("assets/fonts/TT Moscow Economy Medium.ttf");
+}
+
+@font-face {
+    font-family: "TT Moscow Economy - Bd";
+    font-weight: 400;
+    font-style: normal;
+    src: url("assets/fonts/TT Moscow Economy Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "TT Moscow Economy - Lt";
+    font-weight: 400;
+    font-style: normal;
+    src: url("assets/fonts/TT Moscow Economy Light.ttf");
+}
+@font-face {
+    font-family: "TT Moscow Economy - DemiBold";
+    font-weight: 400;
+    font-style: normal;
+    src: url("assets/fonts/TT Moscow Economy DemiBold.ttf");
+}
+.demibold{
+    font-family: "TT Moscow Economy - DemiBold";
+}
+
+
+body{
+    margin: 0;
+    font-family: "TT Moscow Economy - Rg";
+    color: var(--textColor);
+}
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+.my-h1{
+    font-size: 50px !important;
+    margin: 0 !important;
+}
+h3{
+    margin: 0;
+    font-size: 36px;
+    font-family: "TT Moscow Economy - Md";
+    font-weight: 400;
+    line-height:45px;
+}
+h5{
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.red{
+    color: var(--red);
+}
+.gray{
+    color: var(--textGray);
+}
+.black{
+    color: var(--textColor);
+}
+.numb{
+    font-size: 70px;
+    font-family: "TT Moscow Economy - Rg";
+}
+.container{
+    width: 70vw;
+    margin: auto;
+}
+.btn{
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "TT Moscow Economy - Md";
+}
+.black-btn{
+    background-color: var(--textColor);
+}
+.black-btn:hover{
+    background-color: var(--red);
+}
+
+.red-btn{
+    background-color: var(--red);
+}
+.red-btn:hover{
+    background-color: var(--brown);
+}
+.header-line{
+    border: 1px solid var(--red);
+    width: 180px;
+    height: 0;
+    position: relative;
+    margin: 20px 0;
+}
+.header-line__box{
+    height: 6px;
+    width: 30px;
+    background-color: var(--red);
+    position: absolute;
+    top: -3px;
+
+}
+.header-line__right{
+    margin-left:151px;
+}
+.header-line__left{
+    margin-left:-5px;
+}
+.header-line__center{
+    margin-left: 75px;
+}
+.relative{
+    position: relative;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.p5{
+    font-size: 12px;
+}
+.p4{
+    font-size: 15px;
+}
+
+
+
+.welcome{
+    position: relative;
+    -webkit-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+}
+.welcome .gray.small-text{
+    font-family: "TT Moscow Economy - Md";
+}
+.welcome__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:-1;
+}
+.welcome__img img{
+    max-width: 700px;
+    width: 100%;
+}
+.welcome__title{
+    display: flex;
+    padding-top: 60px;
+
+}
+
+.welcome__title img{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+.welcome__title a{
+    color: var(--red);
+    text-decoration: none;
+    border-bottom: 1px solid var(--red);
+    padding-bottom: 0;
+}
+.welcome__steps h3{
+    text-align: center;
+    margin: 50px 0;
+}
+.welcome__steps h3 .red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome__steps .numb{
+    padding: 0 25px;
+}
+.welcome__steps-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    font-family: "TT Moscow Economy - Md";
+}
+.welcome__steps-list div{
+    text-align: center;
+    width: 250px;
+}
+.welcome__steps-list .numb{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    padding: 10px;
+}
+.welcome__steps-list .line{
+    border: 1px solid var(--red);
+    height: 0;
+    margin-top: 50px;
+}
+.welcome__btns{
+    width: 500px;
+    margin:auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.questions{
+    -webkit-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    padding-bottom: 100px;
+}
+.questions .container{
+    width: 65vw;
+}
+.questions hr{
+    margin-bottom: 80px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content.relative .header-line{
+    margin-left: auto;
+}
+.content.relative .btn{
+    margin: 350px 0 50px 0;
+}
+.content.relative .content__title{
+    padding-top: 50px;
+}
+.content__title {
+    width: 50%;
+    font-family: "TT Moscow Economy - Md";
+}
+.content__info-list{
+    margin: 0;
+    padding: 0;
+}
+.content__info img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 380px;
+    width: 100%;
+    border-bottom-left-radius: 45px;
+}
+
+.content__info-list li{
+    position: relative;
+}
+.content__info-list li p{
+    margin: 0;
+}
+.content__info-list li::marker{
+    content: ".";
+    line-height: 0;
+    font-size: 102px;
+    color: var(--red);
+    background-color: var(--red);
+    text-align: justify;
+    top: 500px;
+}
+.requirements{
+    padding: 100px 0;
+    background-color: var(--grayBg);
+}
+.requirements .content__info-list{
+    list-style: none;
+    padding: 0;
+    counter-reset: my-counter;
+}
+.requirements .content__info-list li{
+    display: flex;
+    align-items: start;
+    line-height: 1.5;
+    margin-left: 30px; /* Adjust the margin to make space for the marker */
+    padding: 10px;
+    position: relative; /* Needed for the counter */
+}
+.requirements .content__info-list li::before {
+    content: counter(my-counter); /* Use a counter for the numbering */
+    counter-increment: my-counter; /* Increment the counter */
+    text-align: center; /* Center the counter text */
+    font-size: 35px;
+    color: var(--red); /* Text color of the counter */
+    margin-right: 10px;  /* Adjust the space between the marker and text */
+    margin-top: -15px;
+}
+.requirements .content__info-list li::marker{
+    content: counter(list-item);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+.requirements .header-line{
+    margin-left: auto;
+}
+.requirements__box{
+    color: white;
+    position: relative;
+    padding: 50px 0 40px 50px;
+    background-color: var(--red);
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+.requirements__box img{
+    position: absolute;
+    right: 0;
+    top: -2px;
+    max-width: 500px;
+    width: 100%;
+}
+.requirements__box .btn{
+    margin-top: 15px;
+}
+
+.variance{
+    padding: 100px 0;
+    -webkit-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
+    box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);}
+.variance .header-line{
+    margin: 20px auto;
+}
+.variance__list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.variance__title{
+    margin-bottom: 50px;
+}
+.variance-type{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 48%;
+}
+.variance-type__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.economic-requirement__list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.economic-requirement__title{
+    text-align: center;
+}
+
+.open-card{
+    text-align: center;
+    padding: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 15px;
+    max-height: 140px;
+    transition: max-height 0.3s,background-color 0.5s;
+}
+.more-btn{
+    border-bottom: 1px solid var(--red);
+    width: 90px;
+    margin: 0 auto;
+}
+.open-card__icon{
+    margin-top: auto;
+    rotate: 180deg;
+    cursor: pointer;
+}
+.open-card_active{
+    max-height: 600px;
+    background-color: var(--grayBg);
+}
+.open-card .numb{
+    font-size: 35px;
+    font-family: "TT Moscow Economy - Md";
+}
+.open-card .p4{
+    text-align: left;
+}
+.clickable{
+    cursor: pointer;
+}
+
+.start-product__title{
+    text-align: right;
+}
+
+.start-product__step-title{
+    display: flex;
+    justify-content: space-between !important;
+}
+.start-product__step{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    justify-content: right;
+    gap: 10px;
+}
+.start-product__box{
+    display: flex;
+    background-color: var(--grayBg);
+    align-items: start;
+    border-radius: 8px;
+    width: 20%;
+    padding: 18px 25px;
+    margin: 15px 0;
+    height: 120px;
+}
+
+.start-product__box .numb{
+    font-size: 25px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.start-product__box .p4.red{
+    padding-right: 10px;
+}
+.gray-bg{
+    background-color: var(--lightGray);
+}
+.red-bg{
+    background-color: var(--red);
+    color: white;
+}
+.brown-bg{
+    background-color: var(--brown);
+    color: white;
+}
+.white-red-bg{
+    background-color: var(--lightRose);
+}
+
+.variance-type__item{
+    display: none;
+}
+.variance-type__item_active{
+    display: block;
+}
+.variance__link{
+    margin: 0;
+    line-height: 25px;
+}
+.red-border{
+    display: none;
+}
+.variance__link{
+    text-decoration: none;
+    color: var(--textGray);
+    border-bottom: 2px solid var(--textGray);
+}
+.variance-type__text{
+    color: var(--lightGray);
+    font-size: 14px;
+}
+.variance-type h3{
+    color: var(--textGray);
+}
+.active-border .variance__link{
+    cursor: pointer;
+    color: var(--textColor);
+    border-bottom: 2px solid var(--textColor);
+}
+.active-border .variance-type__text{
+    color: var(--textColor);
+}
+.active-border h3{
+    color: var(--red);
+}
+.left-border,.right-border{
+    display: flex;
+}
+.active-border .gray-border{
+    display: none;
+}
+.active-border .red-border{
+    display: block;
+}
+
+.docs{
+    padding: 80px 0 50px 0;
+    background-color: var(--grayBg);
+}
+.docs .content__title h3{
+    margin-bottom: 150px;
+}
+.docs .content__info-list{
+    list-style: none;
+    padding: 0;
+    counter-reset: my-counter;
+    font-family: "TT Moscow Economy - Md";
+}
+.docs .content__info-list li::before {
+    content: counter(my-counter); /* Use a counter for the numbering */
+    counter-increment: my-counter; /* Increment the counter */
+    text-align: center; /* Center the counter text */
+    font-size: 35px;
+    color: var(--red); /* Text color of the counter */
+    margin-right: 10px;  /* Adjust the space between the marker and text */
+    margin-top: -15px;
+}
+
+.docs .content__info-list li::marker{
+    content: counter(list-item);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}
+.docs .content__info-list li{
+    display: flex;
+    align-items: start;
+    line-height: 1.5;
+    margin-left: 30px; /* Adjust the margin to make space for the marker */
+    padding: 10px;
+    position: relative; /* Needed for the counter */
+}
+
+.cards{
+    padding: 50px 0 70px 0;
+}
+.cards .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards__item{
+    position: relative;
+}
+.cards__item img{
+    max-width: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+.cards__item p{
+    position: absolute;
+}
+.cards__item .p2{
+    top: 50px;
+    left: 20px;
+
+}
+.cards__item .p4{
+    top: 10px;
+    left: 20px;
+
+}
+.cards__item .btn{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(2px);
+    z-index: 1000; /* Ensure it's above other content */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the modal content container */
+.modal__container {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.claster{
+    display: flex;
+    width: 300px;
+    text-align: left;
+    margin: 5px 10px;
+}
+.claster-modal{
+    display: none;
+}
+.claster img{
+    padding-right: 20px;
+}
+.claster-list{
+    margin: 60px auto;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.modal .header-line{
+    margin: 20px auto;
+}
+.modal__container{
+    max-width: 700px;
+    width: 100%;
+}
+.close-icon{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.application-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 315px;
+    list-style: none;
+    padding: 0;
+}
+
+.application-step {
+    text-align: left;
+    width: 280px;
+    margin: 0 15px;
+    display: flex;
+    align-items: start;
+    position: relative; /* Add this to create a relative positioning context for ::before */
+}
+
+.application-step::before {
+    content: "";
+    width: 10px; /* Adjust the size of the bullet */
+    height: 10px; /* Adjust the size of the bullet */
+    background-color: var(--red); /* Adjust the color of the bullet */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 10px; /* Adjust the space between the bullet and text */
+    display: inline-block;
+    position: absolute;
+    left: -18px; /* Adjust the positioning of the bullet */
+    margin-top: 12px;
+}
+.show{
+    display: flex;
+}
+@media screen and (max-width: 960px) {
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p4{
+        font-size: 13px;
+    }
+    .numb{
+        font-size: 50px;
+    }
+    .open-card{
+        max-height: 170px;
+    }
+    .open-card .numb{
+        font-size: 25px;
+    }
+    .desktop{
+        display: none;
+    }
+    .welcome__title{
+        text-align: center;
+    }
+    .welcome__steps-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .content.relative{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .content.relative .btn{
+        margin-top: 0;
+    }
+    .header-line{
+        margin: 20px auto;
+    }
+    .header-line__right,.header-line__left{
+        margin-left: 75px;
+    }
+    .align-right{
+        text-align: center;
+    }
+    li{
+        text-align: left;
+    }
+    .requirements__box h3,.requirements__box button {
+        position: relative;
+        z-index: 1;
+    }
+    .docs .content__title h3{
+        margin-bottom: 0;
+    }
+    .cards .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards__item{
+        margin:10px 0
+    }
+}

@@ -655,13 +655,14 @@ h5{
 }
 .claster-list .p5{
     font-family: "TT Moscow Economy - DemiBold";
+    font-size: 14px;
 }
 .claster img{
     padding-right: 20px;
 }
 .claster-list{
     margin: 60px auto;
-    height:200px;
+    height:255px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

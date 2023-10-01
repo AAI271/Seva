@@ -470,13 +470,14 @@ h5{
     background-color: var(--grayBg);
     align-items: start;
     border-radius: 8px;
-    width: 20%;
-    padding: 18px 25px;
+    width: 21%;
+    padding: 10px 15px;
     margin: 15px 0;
     height: 120px;
 }
 .start-product__box-main{
     font-family: "TT Moscow Economy - Md";
+    padding: 19px 10px 0px 25px;
 }
 .start-product__box .numb{
     font-size: 25px;

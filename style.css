@@ -114,6 +114,7 @@ h5{
     cursor: pointer;
     transition: background-color 0.3s;
     font-family: "TT Moscow Economy - Md";
+    font-size: 16px;
 }
 .black-btn{
     background-color: var(--textColor);

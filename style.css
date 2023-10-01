@@ -101,7 +101,7 @@ h5{
     font-family: "TT Moscow Economy - Rg";
 }
 .container{
-    max-width: 1250px;
+    max-width: 1218px;
     width: 75vw;
     margin: auto;
 }
@@ -324,7 +324,6 @@ h5{
     display: flex;
     align-items: start;
     line-height: 1.5;
-    margin-left: 30px; /* Adjust the margin to make space for the marker */
     padding: 10px;
     position: relative; /* Needed for the counter */
 }
@@ -602,7 +601,7 @@ h5{
     position: relative;
 }
 .cards__item img{
-    max-width: 330px;
+    max-width: 335px;
     width: 100%;
     border-radius: 20px;
 }

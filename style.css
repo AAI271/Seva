@@ -595,6 +595,7 @@ h5{
     padding: 50px 0 70px 0;
 }
 .cards .container{
+    width: 70vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -603,7 +604,7 @@ h5{
     position: relative;
 }
 .cards__item img{
-    max-width: 280px;
+    max-width: 330px;
     width: 100%;
     border-radius: 20px;
 }

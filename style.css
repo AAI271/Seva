@@ -101,7 +101,8 @@ h5{
     font-family: "TT Moscow Economy - Rg";
 }
 .container{
-    width: 60vw;
+    max-width: 1250px;
+    width: 75vw;
     margin: auto;
 }
 .btn{
@@ -110,7 +111,7 @@ h5{
     border-radius: 8px;
     border: none;
     color: white;
-    width: 250px;
+    width: 230px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-family: "TT Moscow Economy - Md";
@@ -191,12 +192,14 @@ h5{
     width: 100%;
 }
 .welcome__title{
+    position: relative;
     display: flex;
     padding-top: 60px;
-
 }
 
 .welcome__title img{
+    position: absolute;
+    left: -55px;
     margin-left: -50px;
     padding-right: 50px;
 }
@@ -258,9 +261,6 @@ h5{
     -moz-box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
     box-shadow: 0px -27px 29px -5px rgba(0,0,0,0.2);
     padding-bottom: 100px;
-}
-.questions .container{
-    width: 65vw;
 }
 .questions hr{
     margin-bottom: 80px;
@@ -366,7 +366,7 @@ h5{
 }
 .requirements__box .btn{
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
     left: 0;
     right: 0;
     margin:auto;
@@ -515,9 +515,6 @@ h5{
 .red-border{
     display: none;
 }
-.variance .container{
-    width: 75vw;
-}
 .variance__link{
     text-decoration: none;
     color: var(--lightGray);
@@ -563,6 +560,7 @@ h5{
     list-style: none;
     padding: 0;
     counter-reset: my-counter;
+    margin-right: 100px;
     font-family: "TT Moscow Economy - Md";
 }
 .docs .content__info-list li::before {
@@ -595,7 +593,6 @@ h5{
     padding: 50px 0 70px 0;
 }
 .cards .container{
-    width: 70vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -620,13 +617,11 @@ h5{
 .cards__item .p4{
     top: 10px;
     left: 20px;
-
 }
 .cards__item .btn{
     position: absolute;
     bottom: 20px;
     left: 20px;
-    width: 197px;
 }
 .modal {
     position: fixed;

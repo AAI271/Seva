@@ -600,6 +600,7 @@ h5{
 .cards__item{
     position: relative;
 }
+
 .cards__item img{
     max-width: 335px;
     width: 100%;
@@ -608,13 +609,16 @@ h5{
 
 .cards__item p{
     position: absolute;
+    font-family: "TT Moscow Economy - Md";
 }
 .cards__item .p2{
-    top: 50px;
+    font-size: 20px;
+    top: 35px;
     left: 20px;
-
 }
 .cards__item .p4{
+    font-size: 12px;
+    letter-spacing: 1px;
     top: 10px;
     left: 20px;
 }
